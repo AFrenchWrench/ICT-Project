@@ -1,35 +1,35 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="wgnGxk946H3UwEeCAsUU">
-    <mxGraphModel dx="1218" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1461" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="l0sCKU2uShR1K66GnEwG-1" value="User" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="320" width="200" height="140" as="geometry" />
+        <mxCell id="l0sCKU2uShR1K66GnEwG-1" value="User" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="185" y="605" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="l0sCKU2uShR1K66GnEwG-2" value="Username ( CharField )&lt;div&gt;Password ( CharField )&lt;/div&gt;&lt;div&gt;BirthDate ( DateField )&lt;/div&gt;&lt;div&gt;Email ( EmailField )&lt;/div&gt;&lt;div&gt;First Name ( CharField )&lt;/div&gt;&lt;div&gt;Last Name ( CharField )&lt;/div&gt;&lt;div&gt;Is Verified ( BooleanField )&lt;/div&gt;&lt;div&gt;Created at ( DateTimeField )&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="l0sCKU2uShR1K66GnEwG-1">
+        <mxCell id="l0sCKU2uShR1K66GnEwG-2" value="Username ( CharField )&lt;div&gt;Password ( CharField )&lt;/div&gt;&lt;div&gt;BirthDate ( DateField )&lt;/div&gt;&lt;div&gt;Email ( EmailField )&lt;/div&gt;&lt;div&gt;First Name ( CharField )&lt;/div&gt;&lt;div&gt;Last Name ( CharField )&lt;/div&gt;&lt;div&gt;Is Verified ( BooleanField )&lt;/div&gt;&lt;div&gt;Created at ( DateTimeField )&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="l0sCKU2uShR1K66GnEwG-1" vertex="1">
           <mxGeometry y="20" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="l0sCKU2uShR1K66GnEwG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="l0sCKU2uShR1K66GnEwG-3" target="l0sCKU2uShR1K66GnEwG-7">
+        <mxCell id="l0sCKU2uShR1K66GnEwG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="l0sCKU2uShR1K66GnEwG-3" target="l0sCKU2uShR1K66GnEwG-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="615" y="112" />
+              <mxPoint x="540" y="390" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l0sCKU2uShR1K66GnEwG-3" value="Transaction" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="210" width="250" height="130" as="geometry" />
+        <mxCell id="l0sCKU2uShR1K66GnEwG-3" value="Transaction" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="415" y="495" width="250" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="l0sCKU2uShR1K66GnEwG-4" value="&lt;div&gt;&lt;div&gt;User (ForeignKey to User )&lt;/div&gt;&lt;div&gt;Category ( ForeignKey to Category )&lt;/div&gt;&lt;/div&gt;amount (PositiveIntField )&lt;div&gt;type ( CharField(Choice : income, expense ))&lt;/div&gt;&lt;div&gt;Description (TextField)&lt;/div&gt;&lt;div&gt;Created at ( DateTimeField )&lt;/div&gt;&lt;div&gt;Updated at ( DateTimeField )&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="l0sCKU2uShR1K66GnEwG-3">
+        <mxCell id="l0sCKU2uShR1K66GnEwG-4" value="&lt;div&gt;&lt;div&gt;User (ForeignKey to User )&lt;/div&gt;&lt;div&gt;Category ( ForeignKey to Category )&lt;/div&gt;&lt;/div&gt;amount (PositiveIntField )&lt;div&gt;type ( CharField(Choice : income, expense ))&lt;/div&gt;&lt;div&gt;Description (TextField)&lt;/div&gt;&lt;div&gt;Created at ( DateTimeField )&lt;/div&gt;&lt;div&gt;Updated at ( DateTimeField )&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="l0sCKU2uShR1K66GnEwG-3" vertex="1">
           <mxGeometry y="20" width="250" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="l0sCKU2uShR1K66GnEwG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.531;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="l0sCKU2uShR1K66GnEwG-3" target="l0sCKU2uShR1K66GnEwG-1">
+        <mxCell id="l0sCKU2uShR1K66GnEwG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.531;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="l0sCKU2uShR1K66GnEwG-3" target="l0sCKU2uShR1K66GnEwG-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l0sCKU2uShR1K66GnEwG-6" value="Category" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="70" width="130" height="50" as="geometry" />
+        <mxCell id="l0sCKU2uShR1K66GnEwG-6" value="Category" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="355" y="355" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="l0sCKU2uShR1K66GnEwG-7" value="name (CharField)" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="l0sCKU2uShR1K66GnEwG-6">
+        <mxCell id="l0sCKU2uShR1K66GnEwG-7" value="name (CharField)" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="l0sCKU2uShR1K66GnEwG-6" vertex="1">
           <mxGeometry y="20" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
